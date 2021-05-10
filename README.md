@@ -15,7 +15,6 @@ Key environment variables:
 * `AWS_ACCESS_KEY_ID` - AWS IAM user access key ID to authenticate to AWS APIs
 * `AWS_SECRET_ACCESS_KEY` - AWS IAM user access key secret to authenticate to AWS APIs
 * `AWS_REGION` - AWS region your Amplify project is hosted in
-* `AMPLIFY_ENV` - Amplify environment name for current execution. This is used to configure the `local-env-info.json` file
 
 Mount your project at `/app` in the container such that `/app/amplify` is the path to the Amplify configuration.
 This makes the Amplify configuration files available to the CLI commands.

@@ -10,6 +10,7 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.2.3.zip" -o "aw
 RUN npm install -g @aws-amplify/cli
 RUN mkdir /app
 
+COPY ./configure.sh /usr/bin/
 COPY ./entrypoint.sh /usr/bin/
 
 WORKDIR /app
